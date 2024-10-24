@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document 1</title>
+    <link rel="stylesheet" href="index1.css">
+    <style>
+        footer {
+            position: relative;
+        }
+        body div.caixaMãe{
+            position: relative;
+            position: center;
+            background-color: yellow;
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+    <!--background="img/qual-caminhao-mais-economico.jpg" style="background-repeat: no-repeat;"-->
+<!--body {
+            position: static;
+            background-image: url('img/qual-caminhao-mais-economico.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            filter: blur(1000px);
+        }-->
+</head>
+<body>
+<hr>
+    <header>
+        <nav>
+            <a href="sobre.html">Sobre</a> &nbsp; | &nbsp;
+            <a href="info.html">Info</a>
+        </nav>
+    </header>
+<hr>
+<!-- -->
+    <div class="caixaMãe">
+        <p class="">explicando</p> <!--Texo explicativo do porque é impostante a segurança do login e senha-->
+        <p class="">Email</p> <!-- Email-->
+<!-- nome do usuário, podemos ainda mudar para email-->
+        <input type="text" name="usuario" id="usuario" pattern="[A-Za-z0-9]{5,10}"  
+            title="O Usuario precisa ser alfanumero e entre 5 e 10 caracteres">
+<!--senha -->
+            <input type="text" name="senha" id="senha" pattern="[A-Za-z0-9]{6, 6}"
+            title="A senha precisa ser alfanumero e de 6 caracteres">
+<!-- botão de envio das informações.-->
+        <div class="">
+            <button class="" as="button">
+                <div class="">Entrar</div>
+<!--botão que deve levar para uma pagina de cadastro-->
+            </button><button class="btn relative btn-secondary btn-large w-full" as="button">
+                <div class="flex items-center justify-center">Cadastrar</div>
+            </button>
+
+        </div>
+        <a href="#"
+            class="mt-5 cursor-pointer text-sm font-semibold text-token-text-secondary underline">Permanecer
+            desconectado</a>
+    </div>
+
+    <footer>
+        <hr>
+        <p>rodapé</p>
+    </footer>
+</body>
+
+</html>
